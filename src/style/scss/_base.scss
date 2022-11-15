@@ -1,0 +1,36 @@
+// Colors
+$color-primary-gradient: Linear-gradient(
+  hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
+);
+$color-primary-red: hsl(0, 100%, 66%);
+$color-white: hsl(0, 0%, 100%);
+$color-grayish-violet-light: hsl(270, 3%, 87%);
+$color-grayish-violet-dark: hsl(279, 6%, 55%);
+$color-violet-very-dark: hsl(278, 68%, 11%);
+
+// Media
+@mixin respond($breakpoint) {
+  @if $breakpoint == desktop {
+    @media (min-width: 480px) {
+      @content;
+    }
+  }
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.8rem;
+}
