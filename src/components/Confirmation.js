@@ -3,7 +3,7 @@ import confirmationImage from "../images/icon-complete.svg";
 export default function Confirmation() {
   return (
     <>
-      <div className="confirmation">
+      <div className="confirmation hide">
         <img
           src={confirmationImage}
           alt="icon-complete"

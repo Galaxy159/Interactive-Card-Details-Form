@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <Card />
         <Form />
-        {/* <Confirmation /> */}
+        <Confirmation />
       </div>
       <Footer />
     </>
