@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer class="attribution">
+      <footer className="attribution">
         Challenge by
         <a
           href="https://www.frontendmentor.io?ref=challenge"
