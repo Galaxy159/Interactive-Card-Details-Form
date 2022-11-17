@@ -207,12 +207,12 @@ body {
   height: 4.5rem;
   border: 1px solid #dedddf;
   padding-left: 1.6rem;
-}
-.form input:focus {
-  border: 1px solid linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.3rem;
+}
+.form input:focus {
+  border: 1px solid linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
   color: #21092f;
 }
 .form input::-moz-placeholder {
@@ -243,6 +243,14 @@ body {
   color: #ff5252;
   margin-top: 0.8rem;
   display: none;
+}
+.form__error--expr {
+  grid-column: 1/3;
+  margin-top: -2rem;
+}
+.form__error--cvc {
+  grid-column: 3/-1;
+  margin-top: -2rem;
 }
 .form__name {
   grid-column: 1/-1;

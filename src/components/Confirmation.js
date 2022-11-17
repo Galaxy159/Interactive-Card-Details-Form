@@ -1,9 +1,11 @@
 import confirmationImage from "../images/icon-complete.svg";
 
-export default function Confirmation() {
+export default function Confirmation(props) {
+  const { isSubmit, resetForm } = props;
+
   return (
     <>
-      <div className="confirmation hide">
+      <div className={isSubmit ? "confirmation" : "confirmation hide"}>
         <img
           src={confirmationImage}
           alt="icon-complete"
@@ -11,7 +13,9 @@ export default function Confirmation() {
         />
         <h1 className="confirmation__headline">THANK YOU!</h1>
         <p className="confirmation__text">We've added your card details</p>
-        <button className="confirmation__btn btn">Continue</button>
+        <button onClick={resetForm} className="confirmation__btn btn">
+          Continue
+        </button>
       </div>
     </>
   );
