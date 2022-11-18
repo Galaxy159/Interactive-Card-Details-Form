@@ -17,15 +17,14 @@ export default function Form(props) {
   function handleFormSubmit(e) {
     e.preventDefault();
     if (
-      checkErrorName() ||
-      checkErrorNumber() ||
-      checkErrorExpiry() ||
-      checkErrorCvc() ||
       !name ||
       !number ||
       !month ||
       !year ||
-      !cvc
+      !cvc ||
+      number.toString().match(/[^,\s,\d]/) ||
+      [month, year].toString().match(/[^,\s,\d]/) ||
+      cvc.match(/[^,\s,\d]/)
     ) {
       setIsSubmit(false);
     } else {
