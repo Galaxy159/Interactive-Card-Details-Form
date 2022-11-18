@@ -123,7 +123,6 @@ export default function Form(props) {
           </label>
           <input
             onChange={(e) => setMonth(e.target.value)}
-            inputMode="numeric"
             value={month}
             type="text"
             maxLength="2"
@@ -133,7 +132,6 @@ export default function Form(props) {
           />
           <input
             onChange={(e) => setYear(e.target.value)}
-            inputMode="numeric"
             value={year}
             type="text"
             maxLength="2"
@@ -147,7 +145,6 @@ export default function Form(props) {
           </label>
           <input
             onChange={(e) => setCvc(e.target.value)}
-            inputMode="numeric"
             value={cvc}
             type="text"
             maxLength="3"
