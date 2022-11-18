@@ -105,7 +105,6 @@ export default function Form(props) {
             }}
             value={handleNumberChange()}
             type="text"
-            inputMode="numeric"
             id="number"
             maxLength="19"
             className="form__number--input"
