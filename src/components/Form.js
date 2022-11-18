@@ -137,7 +137,6 @@ export default function Form(props) {
             value={year}
             type="text"
             maxLength="2"
-            id="expiration"
             className="form__expiration--input-year"
             placeholder="YY"
           />
