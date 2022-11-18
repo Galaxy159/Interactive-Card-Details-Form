@@ -24,7 +24,6 @@ function App() {
   return (
     <>
       <main className="container">
-        <h1>something</h1>
         <Card
           isSubmit={isSubmit}
           name={name}
