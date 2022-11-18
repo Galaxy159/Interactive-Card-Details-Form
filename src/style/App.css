@@ -280,7 +280,6 @@ body {
 }
 .form__submit {
   grid-column: 1/-1;
-  margin-top: 0.8rem;
   margin-bottom: 4.5rem;
 }
 .form__submit--btn {

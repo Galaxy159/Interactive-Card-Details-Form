@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <main className="container">
         <Card
           isSubmit={isSubmit}
           name={name}
@@ -47,7 +47,7 @@ function App() {
           setCvc={setCvc}
         />
         <Confirmation isSubmit={isSubmit} resetForm={resetForm} />
-      </div>
+      </main>
     </>
   );
 }
