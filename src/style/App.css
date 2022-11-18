@@ -58,6 +58,7 @@ body {
   display: grid;
   padding: 3.7rem;
   border-radius: 6px;
+  box-shadow: 0 3rem 5rem 1rem rgba(0, 0, 0, 0.13);
 }
 @media (min-width: 1350px) {
   .card__back {
@@ -102,6 +103,7 @@ body {
   padding: 2rem;
   bottom: -4.3rem;
   left: 1.6rem;
+  box-shadow: 0 3rem 5rem 1rem rgba(0, 0, 0, 0.13);
 }
 @media (min-width: 1350px) {
   .card__front {
