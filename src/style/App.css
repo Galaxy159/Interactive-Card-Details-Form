@@ -210,10 +210,11 @@ body {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.3rem;
+  z-index: 1;
+  outline: none;
 }
 .form input:focus {
-  border: 1px solid linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
-  color: #21092f;
+  outline: 1px solid #610595;
 }
 .form input::-moz-placeholder {
   font-size: 1.8rem;

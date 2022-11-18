@@ -32,9 +32,11 @@
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 2.3rem;
+    z-index: 1;
+    outline: none;
+
     &:focus {
-      border: 1px solid $color-primary-gradient;
-      color: $color-violet-very-dark;
+      outline: 1px solid #610595;
     }
 
     &::placeholder {
