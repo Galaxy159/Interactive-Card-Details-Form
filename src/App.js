@@ -49,7 +49,7 @@ function App() {
         />
         <Confirmation isSubmit={isSubmit} resetForm={resetForm} />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
